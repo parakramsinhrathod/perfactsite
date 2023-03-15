@@ -41,7 +41,7 @@
         <article data-index="1" data-status="active" >
             <div class="article-image-section article-section"></div>
             <div class="article-description-section article-section"><p>This is what i'm trying to build using css</p></div>
-            <div class="article-title-section article-section"><h2>Recreation From Scratch</h2></div>
+            <div class="article-title-section article-section"><h2>1)Recreation From Scratch</h2></div>
             <div class="article-nav-section article-section">
                   <button class="article-nav-button" type="button" onclick="handleLeftClick()">
                     <i class="fa-solid fa-arrow-left"></i>
@@ -54,7 +54,7 @@
         <article data-index="2" data-status="inactive">
             <div class="article-image-section article-section"></div>
             <div class="article-description-section article-section"><p>I am Also learing some React css</p></div>
-            <div class="article-title-section article-section"><h2>React Is Awesome</h2></div>
+            <div class="article-title-section article-section"><h2>2)React Is Awesome</h2></div>
             <div class="article-nav-section article-section">
                   <button class="article-nav-button" type="button" onclick="handleLeftClick()">
                     <i class="fa-solid fa-arrow-left"></i>
@@ -67,7 +67,7 @@
         <article data-index="3" data-status="inactive">
             <div class="article-image-section article-section"></div>
             <div class="article-description-section article-section"><p>Trying to create some new Shopify APps</p></div>
-            <div class="article-title-section article-section"><h2>Apps Also Awesome</h2></div>
+            <div class="article-title-section article-section"><h2>3)Apps Also Awesome</h2></div>
             <div class="article-nav-section article-section">
                   <button class="article-nav-button" type="button" onclick="handleLeftClick()">
                     <i class="fa-solid fa-arrow-left"></i>
@@ -80,7 +80,7 @@
         <article data-index="4" data-status="inactive">
             <div class="article-image-section article-section"></div>
             <div class="article-description-section article-section"><p>I am Also learing some React css</p></div>
-            <div class="article-title-section article-section"><h2>React Is Awesome</h2></div>
+            <div class="article-title-section article-section"><h2>4)React Is Awesome</h2></div>
             <div class="article-nav-section article-section">
                   <button class="article-nav-button" type="button" onclick="handleLeftClick()">
                     <i class="fa-solid fa-arrow-left"></i>
@@ -93,7 +93,7 @@
         <article data-index="5" data-status="inactive">
             <div class="article-image-section article-section"></div>
             <div class="article-description-section article-section"><p>Trying to create some new Shopify APps</p></div>
-            <div class="article-title-section article-section"><h2>Apps Also Awesome</h2></div>
+            <div class="article-title-section article-section"><h2>5)Apps Also Awesome</h2></div>
             <div class="article-nav-section article-section">
                   <button class="article-nav-button" type="button" onclick="handleLeftClick()">
                     <i class="fa-solid fa-arrow-left"></i>
@@ -104,10 +104,27 @@
             </div>
         </article>
     </main>
+    <script src="/app.js"></script>
+<!-- <script>
+  let activeIndex = 0
+  const articles = document.querySelectorAll('article')
 
-    <script>
-        
-    </script>
+  const handleRightClick = () => {
+    const nextIndex = activeIndex + 1  <= articles.length - 1 ? activeIndex + 1 : 0
+    // console.log(nextIndex)
+
+  const currArticle = document.querySelector(`article[data-index="${activeIndex}"]`),
+        nextArticle = document.querySelector(`article[data-index="${nextIndex}"]`)
+  
+  currArticle.dataset.status = 'inactive'
+  nextArticle.dataset.status = 'active'
+  console.log(currArticle)
+  
+
+  
+
+  }
+</script> -->
     
 </body>
 </html>

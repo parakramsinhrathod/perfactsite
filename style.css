@@ -72,10 +72,14 @@ main > article{
     position: absolute;
     left: 0px;
     right: 0px;
+    /* transition: all 400ms ease; */
 }
-main > article[data-status="inactive"]{
+
+main > article[data-status="inactive"] {
     transform: translateX(-100%);
-}
+  }
+  
+
 main > article > .article-section{
     height: 100%;
 }
@@ -94,13 +98,16 @@ main> article:first-child > .article-image-section{
     background-image: url('https://images.unsplash.com/photo-1565626424178-c699f6601afd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80');
 }
 main> article:nth-child(2) > .article-image-section{
-    background-image: url('https://images.unsplash.com/photo-1565626424178-c699f6601afd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80');
+    background-image: url('https://images.unsplash.com/photo-1508020963102-c6c723be5764?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
 }
 main> article:nth-child(3) > .article-image-section{
-    background-image: url('https://images.unsplash.com/photo-1565626424178-c699f6601afd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80');
+    background-image: url('https://images.unsplash.com/photo-1437435409766-a478cc6da81a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80');
 }
 main> article:nth-child(4) > .article-image-section{
-    background-image: url('https://images.unsplash.com/photo-1565626424178-c699f6601afd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80');
+    background-image: url('https://images.unsplash.com/photo-1471922694854-ff1b63b20054?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80');
+}
+main> article:nth-child(5) > .article-image-section{
+    background-image: url('https://images.unsplash.com/photo-1488866022504-f2584929ca5f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1162&q=80');
 }
 
 main > article > .article-image-section{
@@ -155,3 +162,4 @@ main > article > .article-nav-section > .article-nav-button:hover {
 main > article > .article-nav-section > .article-nav-button:nth-child(2) {
   border-left: 1px solid var(--border-color);
 }   
+
